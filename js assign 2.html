@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+    <title>javascript</title>
+     <style>
+         .style{
+          background-color: aquamarine;
+          max-width:fit-content;
+          width: 100%;
+          padding: 8px 8px;
+          font-size: 200%;
+          margin-top:10px;
+          border: 9px solid black;
+
+         }
+
+         .a2 option{
+          width: 100%;
+          font-size: 0.8em;
+          box-sizing: border-box;
+         }
+     </style>
+</head>
+  <body>
+    <center>
+      
+   
+      
+      <div class="style">
+
+           <div><h1> state and capital</h1></div>
+
+        <label>state :</label>
+     <select id="state"  onchange="state()">
+     <option  class="a2"  value=""> choose any state</option>
+     <option  class="a2" value="Ap">Andhra Pradesh</option>
+     <option  class="a2" value="Asm">Assam</option>
+     <option  class="a2" value="goa">Goa</option>
+     <option class="a2" value="guj">Gujarat</option>
+     <option  class="a2" value="kar">Karnataka</option>
+     <option  class="a2" value="ker">Kerala</option>
+     <option class="a2" value="maha">Maharashtra</option>
+     <option  class="a2" value="punj">Punjab</option>
+     <option  class="a2" value="raj">Rajasthan</option>
+     <option  class="a2" value="tn">Tamil Nadu</option>
+     <option  class="a2" value="tel">Telangana</option>
+    </select> <br>
+     
+    
+      
+     
+      <label>capital:</label>
+      <select id="capital"  onchange="capital()"> 
+      <option value=""> choose any capital</option>  
+      <option value="Ap">Amaravati</option>
+      <option value="Asm">Dispur</option>
+      <option value="goa">Panaji</option>
+      <option value="guj">Gandhinagar</option>
+      <option value="kar">Bengaluru</option>
+      <option value="ker">Trivandrum</option>
+      <option value="maha">Mumbai</option>
+      <option value="punj">Chandigarh</option>
+      <option value="raj">Jaipur</option>
+      <option value="tn">Chennai</option>
+      <option value="tel">Hyderabad</option>
+    </select>
+
+     </div>
+
+    </center>
+     <script>
+        function state(){
+          var state=document.getElementById("state").value;
+          document.getElementById("capital").value= state;
+        }
+
+
+        function capital(){
+          var state=document.getElementById("capital").value;
+          document.getElementById("state").value= state;
+        }
+
+
+      
+        
+
+     </script>
+  </body>
+</html>
+   
+
