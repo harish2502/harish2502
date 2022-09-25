@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.logo img{
+    width: 100%;
+    height: 100%;
+
+
+}
+ul{
+ list-style-type:none;
+ float: right;
+ 
+}
+ul li{
+    margin-top:  10px;
+    margin-right: 4px;
+    background-color:rgba(237, 233, 227, 0.303);
+    float: right;
+}
+ul li a{
+    
+     display:block;
+     color: red;
+     padding: 8px 16px;
+     border: 4px solid black; 
+     text-decoration: none;
+     font-size: 25px;
+     transition: 0.5s;
+  
+    
+}
+ul li a:hover{
+    background-color:black ;
+}
+
+.alpha{
+    background-color: black;
+}
+
+.logo img{
+    float: left;
+    width: 500px;
+    height:auto;
+   
+ 
+}
+
+.title{
+    position: absolute;
+    top:40%;
+    left:60%;
+    transform: translate(-50%,-50%);
+    font-size: 31px;
+    width: 1000px;
+ 
+}
+.title h1{
+   color: azure;
+   
+}
+.beta p{
+    background-color: rgba(65, 136, 228, 0.286);
+    margin: 0%;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid black;
+
+}
+.beta h3{
+    text-align: center;
+    font-style: oblique;
+    font-weight:30px;
+    color:darkred;
+
+}
+.beta {
+    width: 373px;
+    text-align: center;
+    float:left;
+    margin-left: 2px;
+    padding: 22px;
+    
+}
+.ennada{
+    margin-left: 25%;
+    
+
+}
+
+
+
+.clear{
+    clear: both;
+}
+
+
+.comma p{
+    background-color: rgba(65, 136, 228, 0.286);
+    margin: 0%;
+    padding: auto;
+    text-align: center;
+    border: 2px solid black;
+
+}
+.comma h3{
+    text-align: center;
+    font-style: oblique;
+    font-weight:30px;
+    color:darkred;
+
+}
+.comma {
+    width: 373px;
+    text-align: center;
+    margin-left: 2px;
+    float: right;
+    padding: 22px;
+  
+}
+.clear{
+    margin-right: 25%;
+}
+
+
+
+
+
+
