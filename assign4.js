@@ -1,0 +1,56 @@
+const student=[
+    {
+      sno:1,
+      rollno:11101,
+      student:'arun',
+      class:12,
+      section:"A",
+      totalMark:488        
+    },
+    {
+        sno:2,
+        rollno:11102,
+        student:'avesh',
+        class:12,
+        section:"A",
+        totalMark:388        
+      },
+      {
+        sno:3,
+        rollno:11103,
+        student:'bharath',
+        class:12,
+        section:"B",
+        totalMark:455        
+      },
+      {
+        sno:4,
+        rollno:11104,
+        student:'sita',
+        class:12,
+        section:"A",
+        totalMark:503       
+      },
+      {
+        sno:5,
+        rollno:11105,
+        student:'priya',
+        class:12,
+        section:"B",
+        totalMark:555       
+      }
+];
+
+var selsat="";
+student.forEach(function(item){
+    selsat+="<tr>";
+    selsat+="<td>"+item.sno+"</td>";
+    selsat+="<td>"+item.rollno+"</td>";
+    selsat+="<td>"+item.student+"</td>";
+    selsat+="<td>"+item.class+"</td>";
+    selsat+="<td>"+item.section+"</td>";
+    selsat+="<td>"+item.totalMark+"</td>";
+    selsat+="</tr>";
+})
+document.getElementById("tbody").innerHTML=selsat;
+console.log(document.getElementById("tbody").innerHTML=selsat)
